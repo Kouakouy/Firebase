@@ -548,22 +548,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 
-.footer-links {
-    display: flex;
-    gap: 1rem;
-}
-
-.footer-links a {
-    color: white;
-    font-size: 1.2rem;
-    transition: color 0.3s;
-}
-
-.footer-links a:hover {
-    color: var(--primary-light);
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
